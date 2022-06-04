@@ -68,7 +68,7 @@ void display(){
 //function to add data in top of the stack
 void addItem(){
 	int newData;
-	if(top>=max-1){  		//Here if we put max-2 condition because top starts from -1 and our counting starts from 1 also top value is increase before initializing top data
+	if(top>=max-1){  		//Here we put max-1 condition because top starts from -1 and our counting starts from 1 also top value is increased before initializing top data
 		printf("\t**********stack is full**********\n");
 		printf("\t**********choose something else*********\n");
 		display();
